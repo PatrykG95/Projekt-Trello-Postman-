@@ -1,0 +1,21 @@
+{
+	"id": "3fb468bb-8c1b-438b-8098-6c5e504d2f23",
+	"name": "Trello Produkcja",
+	"values": [
+		{
+			"key": "key",
+			"value": "4942a5501c3fed1988c920ca09b9cf1a",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2022-02-15T16:27:52.494Z",
+	"_postman_exported_using": "Postman/9.13.2"
+}

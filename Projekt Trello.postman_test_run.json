@@ -1,0 +1,379 @@
+{
+	"id": "d9823f9d-6dad-4764-ad1e-6831cc2ed728",
+	"name": "Projekt Trello",
+	"timestamp": "2022-02-22T00:11:03.996Z",
+	"collection_id": "18563487-3299da74-20c6-4056-a3d4-dffc369f4d56",
+	"folder_id": 0,
+	"environment_id": "3fb468bb-8c1b-438b-8098-6c5e504d2f23",
+	"totalPass": 19,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3e35154a-56e5-4a75-9aff-76719254ca84",
+			"name": "Tworzenie nowej tablicy",
+			"url": "https://api.trello.com/1//boards/?name=Tablica%20z%20API&key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54&desc=ww",
+			"time": 637,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true,
+				"Should verify created name board ": true,
+				"Should verify repsonse id": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify created name board ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify repsonse id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				637
+			],
+			"allTests": [
+				{
+					"Should verify status code": true,
+					"Should verify created name board ": true,
+					"Should verify repsonse id": true
+				}
+			]
+		},
+		{
+			"id": "70b7af07-6cfa-4bfb-a716-a00a1f653d02",
+			"name": "Pokazywanie listy tablic",
+			"url": "https://api.trello.com/1//members/me/boards?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54",
+			"time": 213,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true,
+				"Should verify type of name": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify type of name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				213
+			],
+			"allTests": [
+				{
+					"Should verify status code": true,
+					"Should verify type of name": true
+				}
+			]
+		},
+		{
+			"id": "bbadc867-a6af-4389-a8c7-01c951a27d3d",
+			"name": "Tworzenie nowej listy",
+			"url": "https://api.trello.com/1//boards/62142a18ed1e8e312657252a/lists?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54&name=W%20trakcie%20test%C3%B3w",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true,
+				"Should verify list name": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify list name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Should verify status code": true,
+					"Should verify list name": true
+				}
+			]
+		},
+		{
+			"id": "28a673e1-61eb-4da6-b459-2205867fce8f",
+			"name": "Get a Member",
+			"url": "https://api.trello.com/1/members/patrykgancarz?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54",
+			"time": 258,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				258
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4cd59951-713d-45bd-a5d6-059093a28aea",
+			"name": "Pokazywanie listy dostępnych list",
+			"url": "https://api.trello.com/1//boards/62142a18ed1e8e312657252a/lists?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54",
+			"time": 202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true,
+				"Should verify closed value": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify closed value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"Should verify status code": true,
+					"Should verify closed value": true
+				}
+			]
+		},
+		{
+			"id": "c3265fe8-df1b-41cc-bf59-e2d331173e98",
+			"name": "Tworzenie nowej karty",
+			"url": "https://api.trello.com/1//cards?idList=62142a1991b5302fdd168b78&key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54&name=Nie%20dzia%C5%82a%20system%20logowania",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true,
+				"Should verify value of id list and id board": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify value of id list and id board": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				297
+			],
+			"allTests": [
+				{
+					"Should verify status code": true,
+					"Should verify value of id list and id board": true
+				}
+			]
+		},
+		{
+			"id": "0298be52-e6ff-47f0-9df7-ef1a459d68e7",
+			"name": "Pokazywanie listy stworzonych kart",
+			"url": "https://api.trello.com/1//boards/62142a18ed1e8e312657252a/cards?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true,
+				"Should verify boardId and listId": true,
+				"Should verify type shortLink": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify boardId and listId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify type shortLink": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Should verify status code": true,
+					"Should verify boardId and listId": true,
+					"Should verify type shortLink": true
+				}
+			]
+		},
+		{
+			"id": "19bd020e-2cd1-44c9-9d21-8d8a6d7198f7",
+			"name": "Aktualizacja karty",
+			"url": "https://api.trello.com/1//cards/62142a1a21b6e61f59932c3f?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54&name=Nie%20dzia%C5%82a%20system%20rejestracji%20&desc=Test%20test%201",
+			"time": 537,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true,
+				"Should verify updated name value": true,
+				"Should verify updated desc value": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify updated name value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should verify updated desc value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				537
+			],
+			"allTests": [
+				{
+					"Should verify status code": true,
+					"Should verify updated name value": true,
+					"Should verify updated desc value": true
+				}
+			]
+		},
+		{
+			"id": "27c2f2a4-842e-453a-8cee-e4819fc8bb8d",
+			"name": "Usuwanie karty",
+			"url": "https://api.trello.com/1//cards/62142a1a21b6e61f59932c3f?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54",
+			"time": 303,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				303
+			],
+			"allTests": [
+				{
+					"Should verify status code": true
+				}
+			]
+		},
+		{
+			"id": "dcd70daf-32ee-446c-89db-b03f912e4322",
+			"name": "Usuwanie tablicy",
+			"url": "https://api.trello.com/1//boards/62142a18ed1e8e312657252a?key=4942a5501c3fed1988c920ca09b9cf1a&token=76596c44ad0dd75638d94fc9643950572ceb48841435ef9768a42ea3d503fa54",
+			"time": 615,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should verify status code": true
+			},
+			"testPassFailCounts": {
+				"Should verify status code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				615
+			],
+			"allTests": [
+				{
+					"Should verify status code": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3512,
+	"collection": {
+		"requests": [
+			{
+				"id": "3e35154a-56e5-4a75-9aff-76719254ca84",
+				"method": "POST"
+			},
+			{
+				"id": "70b7af07-6cfa-4bfb-a716-a00a1f653d02",
+				"method": "GET"
+			},
+			{
+				"id": "bbadc867-a6af-4389-a8c7-01c951a27d3d",
+				"method": "POST"
+			},
+			{
+				"id": "28a673e1-61eb-4da6-b459-2205867fce8f",
+				"method": "GET"
+			},
+			{
+				"id": "4cd59951-713d-45bd-a5d6-059093a28aea",
+				"method": "GET"
+			},
+			{
+				"id": "c3265fe8-df1b-41cc-bf59-e2d331173e98",
+				"method": "POST"
+			},
+			{
+				"id": "0298be52-e6ff-47f0-9df7-ef1a459d68e7",
+				"method": "GET"
+			},
+			{
+				"id": "19bd020e-2cd1-44c9-9d21-8d8a6d7198f7",
+				"method": "PUT"
+			},
+			{
+				"id": "27c2f2a4-842e-453a-8cee-e4819fc8bb8d",
+				"method": "DELETE"
+			},
+			{
+				"id": "dcd70daf-32ee-446c-89db-b03f912e4322",
+				"method": "DELETE"
+			}
+		]
+	}
+}
